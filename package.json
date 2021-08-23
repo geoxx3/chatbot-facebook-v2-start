@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "10.17.0",
-    "npm": "6.12.0"
+    "node": "13.6.8",
+    "npm": "6.13.4"
   },
   "main": "app.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "dialogflow": "^0.8.2",
+    "dialogflow": "^4.0.3",
     "express": "^4.16.4",
     "request": "^2.88.0",
     "uuid": "^3.3.2"
