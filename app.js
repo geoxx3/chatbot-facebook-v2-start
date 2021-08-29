@@ -35,7 +35,7 @@ if (!config.FB_APP_SECRET) {
 if (!config.SERVER_URL) { //used for ink to static files
     throw new Error('missing SERVER_URL');
 }
-if (!config.SENDGRID_API_KEY) { //sending email
+/* if (!config.SENDGRID_API_KEY) { //sending email
     throw new Error('missing SENDGRID_API_KEY');
 }
 if (!config.EMAIL_FROM) { //sending email
@@ -43,7 +43,7 @@ if (!config.EMAIL_FROM) { //sending email
 }
 if (!config.EMAIL_TO) { //sending email
     throw new Error('missing EMAIL_TO');
-}
+} */
 
 
 
